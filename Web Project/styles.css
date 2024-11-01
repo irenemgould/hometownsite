@@ -1,0 +1,142 @@
+/**
+Palette: https://coolors.co/6fafd7-95c0e0-3b5410-b8b8ae-070f07
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+#hero{
+    background-image: url("images/plainview-ny.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    border-bottom: 5px solid #B8B8AE;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    color: #3B5410;
+    font-size: 150px;
+    font-weight: 800;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    margin: -25px;
+    color: #3B5410;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+body {
+    background-color: #3B5410;
+    color: #B8B8AE;
+    margin: 0;
+    text-align: center;
+    font-family: lexend;
+    
+}
+
+img {
+    width: 200px;
+    border-radius: 20px;
+} 
+
+#activities {
+    position: relative;
+    display: flex; 
+    justify-content: center;
+}
+
+.activity-item{
+    position: relative;
+    margin: 30px;
+}
+
+.activities-img{
+    width: 300px;
+    height: 300px;
+    border: 8px solid #B8B8AE;
+    border-radius: 200px;
+    margin-top: 120px;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: #95C0E0; /* Semi-transparent background */
+    color: #070F07;
+    font-size: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.3s; /* Smooth transition */
+    border-radius: 50%;
+    transform: translate(-50%, -30.6%);
+    }
+    
+.activity-item:hover .overlay {
+    opacity: 1;
+    }
+
+#activities-text{
+    position: absolute;
+    font-size: 40px;
+}
+
+.guide-card{
+    margin: 100px auto;
+    position: relative;
+    background: #95C0E0;
+    color: #070F07;
+    width: 800px; 
+    height: 400px;
+    border: 8px solid #B8B8AE;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  
+   
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    
+}
+
+
+#guide-pic{
+    justify-content: start;
+    height: 350px;
+    width: 250px;
+}
